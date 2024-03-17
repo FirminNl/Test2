@@ -1,0 +1,54 @@
+.section-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 1rem 3rem;
+    margin: auto;
+    width: 800px;
+}
+
+@media (max-width: 1300px) {
+    .section-wrapper{
+        width: 800px;
+    }
+}
+@media (max-width: 1100px) {
+    .section-wrapper{
+        width: 600px;
+    }
+    
+}
+@media (max-width: 850px) {
+    .section-wrapper{
+        width: 300px;
+    }
+}
+@media (max-width: 500px) {
+    .section-wrapper{
+        width: 200px;
+        margin: auto;
+    }
+}
+
+.section-profile{
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+}
+.section-card-grid{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+}
+
+.anfragen-button-group{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center
+}

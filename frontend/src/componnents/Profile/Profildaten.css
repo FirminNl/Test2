@@ -1,0 +1,139 @@
+.profildaten__container{
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+    margin: auto;
+    width: 800px;
+}
+
+@media (max-width: 1300px) {
+    .profildaten__container{
+        width: 800px;
+    }
+}
+@media (max-width: 1100px) {
+    .profildaten__container{
+        width: 600px;
+    }
+    
+}
+@media (max-width: 850px) {
+    .profildaten__container{
+        width: 300px;
+    }
+}
+@media (max-width: 500px) {
+    .profildaten__container{
+        width: 200px;
+        margin: auto;
+    }
+}
+
+.profildaten__content-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.profildaten__content{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.profildaten__content-item-p{
+    width: 6rem;
+    margin: 0;
+    color: #666666;
+    font-weight: bold;
+}
+
+.profildaten__header-p{
+    margin: 0;
+    color: #666666;
+}
+
+.profildaten__header{
+    padding-bottom: 2rem;
+}
+
+.profildaten__header-h{
+    margin: 0;
+    color: #E41036;
+    font-weight: bold;
+
+}
+.eigenschaften__container{
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+    margin: auto;
+    width: 800px;
+}
+
+@media (max-width: 1300px) {
+    .eigenschaften__container{
+        width: 800px;
+    }
+}
+@media (max-width: 1100px) {
+    .eigenschaften__container{
+        width: 600px;
+    }
+    
+}
+@media (max-width: 850px) {
+    .eigenschaften__container{
+        width: 300px;
+    }
+}
+@media (max-width: 500px) {
+    .eigenschaften__container{
+        width: 200px;
+        margin: auto;
+    }
+}
+
+.eigenschaften__content-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+@media (max-width: 850px) {
+    .eigenschaften__content-item{
+        flex-direction: column;
+    }
+}
+
+.eigenschaften__content{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.eigenschaften__content-item-p{
+    width: 6rem;
+    margin: 0;
+    color: #666666;
+    font-weight: bold;
+}
+
+.eigenschaften__header-p{
+    margin: 0;
+    color: #666666;
+}
+
+.eigenschaften__header{
+    padding-bottom: 2rem;
+}
+
+.eigenschaften__header-h{
+    margin: 0;
+    color: #E41036;
+    font-weight: bold;
+
+}
